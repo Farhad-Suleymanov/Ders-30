@@ -8,7 +8,6 @@ while (i<arr.length){
         arr2.push(arr[i]);
         while (arr[i] == arr[i-1]) {
             i++
-            continue
         }
 
     }
